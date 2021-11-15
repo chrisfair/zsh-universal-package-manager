@@ -53,13 +53,12 @@ fi
 # Yay aliases
 if is_arch_like 
 then
-  alias update='sudo yay -Sy'
-  alias upgrade='sudo yay -Syu'
-  alias install-package='sudo yay -S'
-  alias remove='sudo yay -R'
-  alias search='yay -Ss'
-  alias list-packages='yay -Q'
-  alias update-mirrors='sudo yay -Syy'
+  alias yupdate='sudo yay -Sy'
+  alias yupgrade='sudo yay -Syu'
+  alias yinstall-package='sudo yay -S'
+  alias yremove='sudo yay -R'
+  alias ysearch='yay -Ss'
+  alias ylist-packages='yay -Q'
 fi
 
 
