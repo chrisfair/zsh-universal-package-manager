@@ -5,7 +5,7 @@ can think of, including macos (when using brew), debian, redhat, gentoo, alpine,
 and arch based systems.  This will allow you to simply type the following command 
 instead of the distri system
 *upgrade - upgrades the system
-*install - installs a package
+*install-package - installs a package
 *remove - removes a package
 *search - searchs for a package
 *list-packages - lists installed packages 
