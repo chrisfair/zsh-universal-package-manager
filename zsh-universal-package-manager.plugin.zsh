@@ -57,6 +57,7 @@ if is_arch_like {
   alias remove='sudo yay -R'
   alias search='yay -Ss'
   alias list-packages='yay -Q'
+  alias update-mirrors='sudo yay -Syy'
 }
 
 
