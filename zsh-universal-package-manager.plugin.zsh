@@ -46,7 +46,6 @@ if is_arch_like {
   alias remove='sudo pacman -R'
   alias search='pacman -Ss'
   alias list-packages='pacman -Q'
-  alias list-install-packageed-packages'pacman -Q'
   alias update-mirrors='sudo pacman -Syy'
 }
 
@@ -58,7 +57,6 @@ if is_arch_like {
   alias remove='sudo yay -R'
   alias search='yay -Ss'
   alias list-packages='yay -Q'
-  alias list-install-packageed-packages'yay -Q'
 }
 
 
@@ -70,7 +68,6 @@ if is_debian_like {
   alias remove='sudo apt-get remove'
   alias search='apt-cache search'
   alias list-packages='apt-cache pkgnames'
-  alias list-install-packageed-packages'dpkg -l'
 } 
 
 # yum aliases
@@ -81,7 +78,6 @@ if is_redhat_like{
   alias remove='sudo yum remove'
   alias search='yum search'
   alias list-packages='yum list'
-  alias list-install-packageed-packages'rpm -qa'
 }
 
 
@@ -93,7 +89,6 @@ if is_gentoo_like {
   alias remove='sudo emerge -C'
   alias search='emerge -S'
   alias list-packages='emerge -p'
-  alias list-install-packageed-packages'emerge -p'
 } 
 
 
@@ -105,7 +100,6 @@ if is_alpine_like {
   alias remove='sudo apk del'
   alias search='apk search'
   alias list-packages='apk info'
-  alias list-install-packageed-packages'apk info'
 }
 
 # brew aliases
@@ -116,6 +110,5 @@ if is_homebrew_like {
   alias remove='brew uninstall'
   alias search='brew search'
   alias list-packages='brew list'
-  alias list-install-packageed-packages'brew list'
 }
 
