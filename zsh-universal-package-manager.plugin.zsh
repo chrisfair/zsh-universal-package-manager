@@ -47,7 +47,7 @@ then
   alias remove='sudo pacman -R'
   alias search='pacman -Ss'
   alias list-packages='pacman -Q'
-  alias update-mirrors='sudo pacman -Syy'
+  alias update-mirrors='sudo pacman-mirrors --fasttrack 10 && sudo pacman -Syyu'
 fi
 
 # Yay aliases
